@@ -34,7 +34,7 @@ function App() {
    
 
   return (
-    <div className="flex flex-col min-h-screen" id='home'>
+    <div className="flex flex-col min-h-screen">
       <Navbar onClick={fetchUsers}/>
       <div>
             <div className="wave"></div>
