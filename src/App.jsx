@@ -34,13 +34,14 @@ function App() {
    
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen" id='home'>
       <Navbar onClick={fetchUsers}/>
       <div>
             <div className="wave"></div>
             <div className="wave"></div>
             <div className="wave"></div>
       </div>
+
       {loading ? <Loader/> : <UserCard users={users} />}
       <Footer/>
     </div>
